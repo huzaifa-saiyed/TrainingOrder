@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+ 
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="quote">
+        <column name="residential" nullable="true" xsi:type="varchar" length="255" comment="Residential"/>
+ 
+        <column name="liftgate" nullable="true" xsi:type="varchar" length="255" comment="Liftgate"/>
+ 
+        <column name="delivery" nullable="true" xsi:type="varchar" length="255" comment="Delivery"/>
+        <column name="shipping_types" nullable="true" xsi:type="varchar" length="255" comment="Shipping Type"/>
+        <column name="custom_option" nullable="true" xsi:type="int" comment="Radio Option"/>
+    </table>
+    <table name="sales_oder">
+        <column name="residential" nullable="true" xsi:type="varchar" length="255" comment="Residential"/>
+ 
+        <column name="liftgate" nullable="true" xsi:type="varchar" length="255" comment="Liftgate"/>
+ 
+        <column name="delivery" nullable="true" xsi:type="varchar" length="255" comment="Delivery"/>
+        <column name="shipping_types" nullable="true" xsi:type="varchar" length="255" comment="Shipping Type"/>
+        <column name="custom_option" nullable="true" xsi:type="int" comment="Radio Option"/>
+    </table>
+</schema>
